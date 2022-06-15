@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<title>REGISTRATION</title>
+</head>
+<body id="contactbody" width="100%">
+    <header>
+        <div class="topnav">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h3>SIGN UP</h3>
+            <form>
+                <div class="registerform">
+                    <label for="firstname">
+                        First Name<input type="text" placeholder="Emeka" id="registerfirstname" required>
+                    </label><br>
+                    <label for="lastname">
+                        Last Name<input type="text" placeholder="Enusonum" id="registerlastname" required>
+                    </label><br>
+                    <label for="phone">
+                       Phone Number<input type="tel" placeholder="+2348106300166" id="registerphone" required>
+                    </label><br>
+                    <label for="Gender">
+                        Gender
+                    	<select name="Gender">
+		      	            <option value="Male" >Male</option>
+		      	           <option value="Female" >Female</option>
+		      	           <option value="Others">Others </option>
+		                </select>
+                    </label> <br>   
+                    <label for="Email">
+                       Email <input type="Email" placeholder="Emekajerry514@gmail.com" id="registeremail" required>
+                    </label><br>
+                    <label for="Country">
+                       Country <input type="Country" placeholder="Country" id="registercountry" required>
+                    </label><br>
+                    <label for="State/Province">
+                       State/Province <input type="State/Province" placeholder="Benin City" id="registerstate" required><br>
+                    </label>
+                    <label for="password">
+                       Password <input type="password" minlength="8"placeholder="PASSWORD" id="registerpassword" required>
+                    </label><br>
+                    <label for="confirm">
+                       Confirm Password <input type="password" placeholder="CONFIRM PASSWORD" id="registerconfirm" required>
+                    </label><br>
+                    <button type="submit" id="registerbutton">Create an account</button>
+                </div>
+            </form>
+    </main>
+    <footer id="contactfoot" width="100%">
+Enusonum Emeka Jerry #thatslimdev. copyright 2022
+    </footer>
+</body>
+</html>
